@@ -1,0 +1,123 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+html head {
+  margin: 0%;
+}
+
+html body header {
+  font-family: 'Roboto', sans-serif;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#051937), color-stop(#004d7a), color-stop(#008793), color-stop(#00bf72), to(#a8eb12));
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+html body header .container-fluid {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#051937), color-stop(#004d7a), color-stop(#008793), color-stop(#00bf72), to(#a8eb12));
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+html body header .container-fluid h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  padding-bottom: 5px;
+  -webkit-animation: yourAnimation 1.5s forwards 0s ease-in;
+          animation: yourAnimation 1.5s forwards 0s ease-in;
+}
+
+@-webkit-keyframes yourAnimation {
+  0% {
+    -webkit-transform: rotate(0) translateY(-25%);
+            transform: rotate(0) translateY(-25%);
+    opacity: 0;
+  }
+  99% {
+  }
+  100% {
+    -webkit-transform: rotate(0) translateY(0);
+            transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes yourAnimation {
+  0% {
+    -webkit-transform: rotate(0) translateY(-25%);
+            transform: rotate(0) translateY(-25%);
+    opacity: 0;
+  }
+  99% {
+  }
+  100% {
+    -webkit-transform: rotate(0) translateY(0);
+            transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+html body header .container-fluid p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  -webkit-animation: yourAnimation 1.5s forwards 0s ease-in;
+          animation: yourAnimation 1.5s forwards 0s ease-in;
+}
+
+@keyframes yourAnimation {
+  0% {
+    -webkit-transform: rotate(0) translateY(-25%);
+            transform: rotate(0) translateY(-25%);
+    opacity: 0;
+  }
+  99% {
+  }
+  100% {
+    -webkit-transform: rotate(0) translateY(0);
+            transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+html main .container {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+html main .container .row .col-12 .card .card-body h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+
+html main .container .row .col-12 .card .card-body p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+html main #section1 .container h2 {
+  font-size: 4rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+html main #section1 .container .container .card-deck .card .card:hover {
+  -box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+html main #section1 .container .container .card-deck .card .card-body h4 {
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 1rem;
+}
+
+html main #section1 .container .container .card-deck .card .card-body p {
+  font-family: 'Roboto', sans-serif;
+}
+
+html main #section2 .container-fluid h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+html main #section2 .container-fluid .container .row .card .card-body .row {
+  padding-top: 100rem;
+}
+/*# sourceMappingURL=style.css.map */

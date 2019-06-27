@@ -1,0 +1,117 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    head {
+        margin: 0%;
+    }
+    body {
+        header {
+            font-family: 'Roboto', sans-serif;
+            background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            .container-fluid {
+                padding-top: 12rem;
+                padding-bottom: 12rem;
+                background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 4rem;
+                    padding-bottom: 5px;
+                    animation: yourAnimation 1.5s forwards 0s ease-in;
+                    @keyframes yourAnimation {
+                        0% {
+                            transform: rotate(0) translateY(-25%);
+                            opacity: 0;
+                        }
+                        99% {}
+                        100% {
+                            transform: rotate(0) translateY(0);
+                            opacity: 1;
+                        }
+                    }
+                }
+                p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.5rem;
+                    animation: yourAnimation 1.5s forwards 0s ease-in;
+                    @keyframes yourAnimation {
+                        0% {
+                            transform: rotate(0) translateY(-25%);
+                            opacity: 0;
+                        }
+                        99% {}
+                        100% {
+                            transform: rotate(0) translateY(0);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .container {
+            padding-top: 5rem;
+            padding-bottom: 2rem;
+            .row {
+                .col-12 {
+                    .card {
+                        .card-body {
+                            h4 {
+                                font-family: 'Raleway', sans-serif;
+                                font-size: 40px;
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section1 {
+            .container {
+                h2 {
+                    font-size: 4rem;
+                    font-family: 'Raleway', sans-serif;
+                }
+                .container {
+                    .card-deck {
+                        .card {
+                            .card:hover {
+                                -box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+                            }
+                            .card-body {
+                                h4 {
+                                    font-family: 'Raleway', sans-serif;
+                                    padding-bottom: 1rem;
+                                }
+                                p {
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section2 {
+            .container-fluid {
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                }
+                .container {
+                    .row {
+                        .card {
+                            .card-body {
+                                .row {
+                                    padding-top: 100rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
